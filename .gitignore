@@ -1,3 +1,5 @@
 .kilocode
 .qodo
+deploy/
+secured/config.php
 

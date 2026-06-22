@@ -1,0 +1,3 @@
+<FilesMatch "^(app_config\.php|config\.php|config\.example\.php|db\.php|error_log)$">
+    Require all denied
+</FilesMatch>
