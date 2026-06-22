@@ -1,0 +1,351 @@
+<section class="">
+  <div class="container" style="max-width: 700px;">
+    <h3 class="bg-theme-colored p-15 mb-0 text-white">Donation Through Secured Payment System</h3>
+    <div class="section-content bg-white p-30">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- ===== START: Paypal Both Onetime/Recurring Form ===== -->
+          <form id="popup_paypal_donate_form_onetime_recurring" action="secured/index.php" method="post" enctype="multipart/form-data">
+            <div class="row">
+              
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>I Want to Donate for</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                  <select name="item_name" class="form-control" required>
+                    <option value="Educate Children">Educate Children</option>
+                    <option value="Child Camps">Child Camps</option>
+                    <option value="Clean Water for Life">Clean Water for Life</option>
+                    <option value="Campaign for Child Poverty">Campaign for Child Poverty</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>Currency</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                  <select name="currency_code" class="form-control" required>
+                    <option value="">Select Currency</option>
+                    <option value="USD" selected="selected">USD - U.S. Dollars</option>
+                    <option value="AUD">AUD - Australian Dollars</option>
+                    <option value="BRL">BRL - Brazilian Reais</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="GBP">GBP - British Pounds</option>
+                    <option value="HKD">HKD - Hong Kong Dollars</option>
+                    <option value="HUF">HUF - Hungarian Forints</option>
+                    <option value="INR">INR - Indian Rupee</option>
+                    <option value="ILS">ILS - Israeli New Shekels</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="MYR">MYR - Malaysian Ringgit</option>
+                    <option value="MXN">MXN - Mexican Pesos</option>
+                    <option value="TWD">TWD - New Taiwan Dollars</option>
+                    <option value="NZD">NZD - New Zealand Dollars</option>
+                    <option value="NOK">NOK - Norwegian Kroner</option>
+                    <option value="PHP">PHP - Philippine Pesos</option>
+                    <option value="PLN">PLN - Polish Zlotys</option>
+                    <option value="RUB">RUB - Russian Rubles</option>
+                    <option value="SGD">SGD - Singapore Dollars</option>
+                    <option value="SEK">SEK - Swedish Kronor</option>
+                    <option value="CHF">CHF - Swiss Francs</option>
+                    <option value="THB">THB - Thai Baht</option>
+                    <option value="TRY">TRY - Turkish Liras</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>Type Your Fullname</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                  <input type="text" name="fullname" placeholder="Type Fullname" class="form-control" id="" required>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>Company</strong><span style="color: #ffab00; margin-left: 3px;">(Optional)</span></label>
+                  <input type="text" name="company" placeholder="Type Company Name" class="form-control" id="">
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>Country</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                  <input type="text" name="country" placeholder="Type Country" class="form-control" id="" required>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>State</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                  <input type="text" name="state" placeholder="Type State" class="form-control" id="" required>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>Home Adderss</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                  <input type="text" name="address" placeholder="Type Home Address" class="form-control" id="" required>
+                </div>
+              </div>
+              
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>Phone</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                  <input type="tel" name="phone" placeholder="Type Phone" class="form-control" id="" required>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>Email Address</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                  <input type="email" name="email" placeholder="Type Email" class="form-control" id="" required>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="form-group mb-20">
+                  <label><strong>Leave a comment</strong><span style="color: #ffab00; margin-left: 3px;">(Optional)</span></label>
+                  <input type="note" name="note" placeholder="A Brief Description Here" class="form-control" id="" >
+                </div>
+              </div>
+
+
+              <div class="col-md-12">
+                <img src="images/payment-card-logo-sm.png" alt="">
+                <div class="form-group  mb-20">
+                  <label><strong>Choose a Payment Type</strong></label> <br>
+                  <label class="radio-inline">
+                    <input type="radio" value="btc_payment" name="payment_type"> 
+                    Pay with bitcoin
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" value="bank_payment" name="payment_type"> 
+                    Pay with Bank Transfer
+                  </label>
+                
+                </div>
+              </div>
+              <div class="col-sm-12" id="payment_type_btc">
+                <div class="col-sm-12">
+                  <div class="btc-pay">
+                    <div class="bar-code text-center">
+                      <label><strong>Scan BTC Barcode</strong></label>
+                      <div>
+                      <img src="payments_img/btcqrcode.jpeg?v=1.1" width="200" height="200"  alt="image">
+                    </div>
+                    </div>
+                    <h2 style="text-align: center;margin-top: 10px;" class="m-0 p-0">OR</h2>
+                    <div class="address">
+                      <div class="col-12">
+                        <div class="form-group mt-10 mb-20">
+                          <label><strong>Copy BTC Address</strong></label>
+                          <input type="text" name="btc-addr" id="copybtc" value="bc1qn74tuzc5w2d3hsj0yp4w4rnhtjcmwwj8e7umpu" placeholder="Copy Address" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <button type="button" class="btn btn-dark btn-theme-colored mt-5 pl-10 pr-10" onClick="mycopy()">Copy</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                  <div class="form-group mb-20">
+                    <label><strong>How much do you want to donate?</strong></label>
+                    <div class="radio mt-5">
+                      <label class="radio-inline">
+                        <input type="radio" name="amount" value="20">
+                        $20</label>
+                      <label class="radio-inline">
+                        <input type="radio" name="amount" value="50">
+                        $50</label>
+                      <label class="radio-inline">
+                        <input type="radio" name="amount" value="100">
+                        $100</label>
+                      <label class="radio-inline">
+                        <input type="radio" name="amount" value="200">
+                        $200</label>
+                      <label class="radio-inline">
+                        <input type="radio" name="amount" value="500">
+                        $500</label>
+                      <label class="radio-inline">
+                        <input type="radio" name="amount" value="other">
+                        Other Amount</label>
+                    </div>
+                    <div id="custom_other_amount">
+                      <label><strong>Custom Amount:</strong></label>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-sm-12">
+                  <div class="form-group mb-20">
+                    <label><strong>Upload Payment Proof</strong><span style="color: #ffab00; margin-left: 3px;">*</span></label>
+                    <input type="file" name="file_upload" class="form-control" id="image1" placeholder="Choose file">
+                  </div>
+                </div>
+  
+                </div>
+             
+                <div class="col-sm-12" id="payment_type_bank">
+                <div class="col-sm-12">
+                <p style="margin-top: 5px; color:#ffab00" class="text-success">Please note that for some security reasons, You will receive a message from our support team to complete this process.</p>
+                <!-- <div class="btc-pay">
+                  <div class="bar-code text-center">
+                    <label><strong>Scan USDT Barcode</strong></label>
+                    <div>
+                    <img src="payments_img/btcqrcode.jpeg" width="200" height="200"  alt="image">
+                  </div>
+                  </div>
+                  <h2 style="text-align: center;margin-top: 10px;" class="m-0 p-0">OR</h2>
+                  <div class="address">
+                    <div class="col-12">
+                      <div class="form-group mt-10 mb-20">
+                        <label><strong>Copy USDT Address</strong></label>
+                        <input type="text" name="usdt-addr" id="copyusdt" value="bc1qn74tuzc5w2d3hsj0yp4w4rnhtjcmwwj8e7umpu" placeholder="Copy Address" class="form-control" id="">
+                      </div>
+                      <div class="form-group">
+                        <button type="button" class="btn btn-dark btn-theme-colored mt-5 pl-10 pr-10" onClick="usdtcopy()">Copy</button>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+
+              <div class="col-sm-12">
+                <div class="form-group mb-20">
+                  <label><strong>How much do you want to donate?</strong></label>
+                  <div class="radio mt-5">
+                    <label class="radio-inline">
+                      <input type="radio" name="amount1" value="20">
+                      $20</label>
+                    <label class="radio-inline">
+                      <input type="radio" name="amount1" value="50">
+                      $50</label>
+                    <label class="radio-inline">
+                      <input type="radio" name="amount1" value="100">
+                      $100</label>
+                    <label class="radio-inline">
+                      <input type="radio" name="amount1" value="200">
+                      $200</label>
+                    <label class="radio-inline">
+                      <input type="radio" name="amount1" value="500">
+                      $500</label>
+                    <label class="radio-inline">
+                      <input type="radio" name="amount1" value="other">
+                      Other Amount</label>
+                  </div>
+                  <div id="custom_other_amount1">
+                    <label><strong>Custom Amount:</strong></label>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <button type="submit" name="donate" class="btn btn-flat btn-dark btn-theme-colored mt-10 pl-30 pr-30" data-loading-text="Please wait...">Donate Now</button>
+                </div>
+              </div>
+
+             
+            </div>
+          </form>
+          
+          <!-- Script for Donation Form Custom Amount -->
+          <script type="text/javascript">
+            $(document).ready(function(e) {
+              var $donation_form = $("#popup_paypal_donate_form_onetime_recurring");
+              //toggle custom amount
+              var $custom_other_amount = $donation_form.find("#custom_other_amount");
+              $custom_other_amount.hide();
+              $donation_form.find("[name='amount']").change(function() {
+                  var $this = $(this);
+                  if ($this.val() == 'other') {
+                    $custom_other_amount.show().append('<div class="input-group"><span class="input-group-addon">$</span> <input id="input_other_amount" type="text" name="amount" class="form-control" value="100"/></div>');
+                  }
+                  else{
+                    $custom_other_amount.children( ".input-group" ).remove();
+                    $custom_other_amount.hide();
+                  }
+              });
+
+              var $custom_other_amount1 = $donation_form.find("#custom_other_amount1");
+              $custom_other_amount1.hide();
+              $donation_form.find("[name='amount1']").change(function() {
+                  var $this = $(this);
+                  if ($this.val() == 'other') {
+                    $custom_other_amount.show().append('<div class="input-group"><span class="input-group-addon">$</span> <input id="input_other_amount" type="text" name="amount1" class="form-control" value="100"/></div>');
+                  }
+                  else{
+                    $custom_other_amount.children( ".input-group" ).remove();
+                    $custom_other_amount.hide();
+                  }
+              });
+
+              var $payment_type_btc = $donation_form.find("#payment_type_btc");
+              var $payment_type_bank = $donation_form.find("#payment_type_bank");
+              $payment_type_btc.hide();
+              $payment_type_bank.hide();
+
+              $("input[name='payment_type']").change(function() {
+                  console.log("Payment type changed to: " + this.value);
+                  if (this.value == 'btc_payment') {
+                      $payment_type_btc.show();
+                      $payment_type_bank.hide();
+                  }
+                  else if (this.value == 'bank_payment') {
+                      $payment_type_bank.show();
+                      $payment_type_btc.hide();
+                  }
+              });
+
+              // submit form on click
+          
+              $donation_form.on('submit', function(e){
+               
+
+              });
+
+            });
+
+            function mycopy(){
+									var copyTxt = document.getElementById("copybtc");
+									copyTxt.select();
+									document.execCommand("copy");
+									}
+
+                  function usdtcopy(){
+									var copyTxt = document.getElementById("copyusdt");
+									copyTxt.select();
+									document.execCommand("copy");
+									}
+          </script>
+
+          <!-- Paypal Onetime Form -->
+          <form id="popup_paypal_donate_form-crypto" class="hidden" action="secured/index.php" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="item_name" >
+            <input type="hidden" name="currency_code" >
+
+            <input type="hidden" name="fullname" > 
+            <input type="hidden" name="company" >
+            <input type="hidden" name="country" > 
+
+            <input type="hidden" name="state" >
+            <input type="hidden" name="address" >
+            <input type="hidden" name="phone" >
+            <input type="hidden" name="email" >
+            <input type="hidden" name="note" >
+            <input id="image2" type="text" name="file_upload" >
+            <input type="hidden" name="amount" >
+            <input type="hidden" name="payment_type" >
+
+            <input type="submit" name="donate">
+          </form>
+          
+         
+          <!-- ===== END: Paypal Both Onetime/Recurring Form ===== -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,99 @@
+[07-Sep-2023 15:19:21 UTC] PHP Parse error:  syntax error, unexpected '$currency_code' (T_VARIABLE) in /home/futurech/public_html/secured/index.php on line 174
+[07-Sep-2023 15:20:34 UTC] PHP Parse error:  syntax error, unexpected '$currency_code' (T_VARIABLE) in /home/futurech/public_html/secured/index.php on line 174
+[07-Sep-2023 15:20:38 UTC] PHP Parse error:  syntax error, unexpected '$currency_code' (T_VARIABLE) in /home/futurech/public_html/secured/index.php on line 174
+[07-Sep-2023 15:21:10 UTC] PHP Parse error:  syntax error, unexpected '$currency_code' (T_VARIABLE) in /home/futurech/public_html/secured/index.php on line 176
+[07-Sep-2023 15:21:15 UTC] PHP Parse error:  syntax error, unexpected '$currency_code' (T_VARIABLE) in /home/futurech/public_html/secured/index.php on line 176
+[07-Sep-2023 15:25:36 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 15:29:05 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/futurech/public_html/secured/index.php on line 54
+[07-Sep-2023 15:33:49 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 28
+[07-Sep-2023 15:33:49 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 344
+[07-Sep-2023 15:33:49 UTC] PHP Notice:  Undefined variable: error in /home/futurech/public_html/secured/index.php on line 663
+[07-Sep-2023 15:41:16 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 28
+[07-Sep-2023 15:41:16 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 344
+[07-Sep-2023 15:41:16 UTC] PHP Notice:  Undefined variable: error in /home/futurech/public_html/secured/index.php on line 663
+[07-Sep-2023 15:46:34 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 28
+[07-Sep-2023 15:46:34 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 344
+[07-Sep-2023 15:47:27 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 671
+[07-Sep-2023 15:54:35 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 15:54:35 UTC] PHP Notice:  Undefined index: amount1 in /home/futurech/public_html/secured/index.php on line 54
+[07-Sep-2023 15:54:35 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 677
+[07-Sep-2023 15:57:19 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 28
+[07-Sep-2023 15:57:19 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 347
+[07-Sep-2023 15:57:35 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 15:57:35 UTC] PHP Notice:  Undefined index: amount1 in /home/futurech/public_html/secured/index.php on line 54
+[07-Sep-2023 15:57:35 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 677
+[07-Sep-2023 15:58:12 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 15:58:12 UTC] PHP Notice:  Undefined index: amount1 in /home/futurech/public_html/secured/index.php on line 54
+[07-Sep-2023 15:58:32 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 15:58:32 UTC] PHP Notice:  Undefined index: amount1 in /home/futurech/public_html/secured/index.php on line 54
+[07-Sep-2023 15:59:54 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 15:59:54 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 53
+[07-Sep-2023 15:59:54 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 677
+[07-Sep-2023 16:00:13 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 16:00:13 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 53
+[07-Sep-2023 16:03:22 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 16:03:22 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 53
+[07-Sep-2023 16:03:22 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 677
+[07-Sep-2023 16:03:53 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 16:03:53 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 53
+[07-Sep-2023 16:05:54 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 52
+[07-Sep-2023 16:05:54 UTC] PHP Notice:  Undefined index: amount1 in /home/futurech/public_html/secured/index.php on line 54
+[07-Sep-2023 16:05:54 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 677
+[07-Sep-2023 16:08:10 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 677
+[07-Sep-2023 16:10:13 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 677
+[07-Sep-2023 16:10:35 UTC] PHP Notice:  Undefined variable: amount in /home/futurech/public_html/secured/index.php on line 82
+[07-Sep-2023 16:10:35 UTC] PHP Notice:  Undefined variable: amount in /home/futurech/public_html/secured/index.php on line 177
+[07-Sep-2023 16:10:36 UTC] PHP Notice:  Undefined variable: amount in /home/futurech/public_html/secured/index.php on line 311
+[07-Sep-2023 16:11:38 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 371
+[07-Sep-2023 16:11:38 UTC] PHP Notice:  Undefined index: amount1 in /home/futurech/public_html/secured/index.php on line 373
+[07-Sep-2023 16:11:38 UTC] PHP Notice:  Undefined variable: amount in /home/futurech/public_html/secured/index.php on line 393
+[07-Sep-2023 16:11:38 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 394
+[07-Sep-2023 16:11:38 UTC] PHP Notice:  Undefined variable: amount in /home/futurech/public_html/secured/index.php on line 488
+[07-Sep-2023 16:11:39 UTC] PHP Notice:  Undefined variable: amount in /home/futurech/public_html/secured/index.php on line 629
+[07-Sep-2023 16:11:54 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 371
+[07-Sep-2023 16:11:54 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 394
+[07-Sep-2023 16:20:22 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 371
+[07-Sep-2023 16:20:22 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 394
+[07-Sep-2023 16:31:16 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 394
+[07-Sep-2023 18:06:48 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 373
+[07-Sep-2023 18:06:48 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 396
+[07-Sep-2023 18:06:49 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/futurech/public_html/secured/index.php on line 668
+[07-Sep-2023 18:06:58 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 373
+[07-Sep-2023 18:06:58 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 396
+[07-Sep-2023 18:06:59 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/futurech/public_html/secured/index.php on line 668
+[07-Sep-2023 18:08:23 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 373
+[07-Sep-2023 18:08:23 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 396
+[07-Sep-2023 18:08:48 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 28
+[07-Sep-2023 18:08:48 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 349
+[07-Sep-2023 18:09:46 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 28
+[07-Sep-2023 18:09:46 UTC] PHP Notice:  Undefined index: payment_type in /home/futurech/public_html/secured/index.php on line 349
+[07-Sep-2023 18:10:33 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 681
+[07-Sep-2023 18:16:49 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 681
+[07-Sep-2023 18:17:07 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 373
+[07-Sep-2023 18:17:07 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 396
+[07-Sep-2023 18:21:38 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 681
+[07-Sep-2023 18:22:14 UTC] PHP Warning:  unlink(../payments_img/): Is a directory in /home/futurech/public_html/secured/index.php on line 681
+[08-Sep-2023 06:53:14 UTC] PHP Notice:  Undefined index: amount in /home/futurech/public_html/secured/index.php on line 350
+[08-Sep-2023 06:53:14 UTC] PHP Notice:  Undefined variable: target in /home/futurech/public_html/secured/index.php on line 373
+[13-Sep-2023 15:24:50 UTC] PHP Notice:  Undefined variable: phone in /home/futurech/public_html/secured/send.php on line 114
+[13-Sep-2023 15:24:52 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: Could not authenticate. in /home/futurech/public_html/secured/phpmaile/class.phpmailer.php:1714
+Stack trace:
+#0 /home/futurech/public_html/secured/phpmaile/class.phpmailer.php(1557): PHPMailer->smtpConnect(Array)
+#1 /home/futurech/public_html/secured/phpmaile/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Wed, 13 S...', '<body style="ba...')
+#2 /home/futurech/public_html/secured/phpmaile/class.phpmailer.php(1215): PHPMailer->postSend()
+#3 /home/futurech/public_html/secured/send.php(136): PHPMailer->send()
+#4 {main}
+  thrown in /home/futurech/public_html/secured/phpmaile/class.phpmailer.php on line 1714
+[13-Sep-2023 15:27:22 UTC] PHP Notice:  Undefined variable: phone in /home/futurech/public_html/secured/send.php on line 114
+[13-Sep-2023 15:27:24 UTC] PHP Fatal error:  Uncaught phpmailerException: SMTP Error: Could not authenticate. in /home/futurech/public_html/secured/phpmaile/class.phpmailer.php:1714
+Stack trace:
+#0 /home/futurech/public_html/secured/phpmaile/class.phpmailer.php(1557): PHPMailer->smtpConnect(Array)
+#1 /home/futurech/public_html/secured/phpmaile/class.phpmailer.php(1340): PHPMailer->smtpSend('Date: Wed, 13 S...', '<body style="ba...')
+#2 /home/futurech/public_html/secured/phpmaile/class.phpmailer.php(1215): PHPMailer->postSend()
+#3 /home/futurech/public_html/secured/send.php(136): PHPMailer->send()
+#4 {main}
+  thrown in /home/futurech/public_html/secured/phpmaile/class.phpmailer.php on line 1714
+[13-Sep-2023 15:46:17 UTC] PHP Notice:  Undefined variable: phone in /home/futurech/public_html/secured/send.php on line 114
+[13-Sep-2023 15:46:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/futurech/public_html/secured/phpmaile/class.smtp.php:239) in /home/futurech/public_html/secured/send.php on line 139
+[10-Apr-2026 15:30:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/uscintco/futurechildsupport.com/secured/index.php:1) in /home1/uscintco/futurechildsupport.com/secured/index.php on line 342
+[10-Apr-2026 15:30:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/uscintco/futurechildsupport.com/secured/index.php:1) in /home1/uscintco/futurechildsupport.com/secured/index.php on line 342
